@@ -29,6 +29,5 @@ class RingBufferTests(unittest.TestCase):
         self.assertEqual(len(self.buffer.storage), 5)
         self.assertEqual(self.buffer.get(), ['f', 'g', 'h', 'i', 'e'])
 
-
 if __name__ == '__main__':
     unittest.main()
